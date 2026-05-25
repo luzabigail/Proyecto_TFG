@@ -1,0 +1,212 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:  "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #29584e;
+}
+
+.hamburguesa {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: #7a1b1b;
+  color: #fff;
+  border: none;
+  font-size: 1.8rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.hamburguesa:hover {
+  background: #a05a44;
+}
+
+.menu {
+  position: fixed;
+  top: 60px;
+  right: 1rem;
+  background: #7a1b1b;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-direction: column;
+  display: none;
+  z-index: 9;
+}
+
+.menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.menu a:hover {
+  background: #a05a44;
+}
+
+/* Menú activo */
+.menu.menu-active {
+  display: flex;
+}
+
+
+.titulos_libros {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(1, 1, 14);
+}
+
+.seccion_banners {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banners {
+    /* position: relative;
+    z-index: 1; */
+    background-color: rgba(73, 154, 198, 0.393);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    /* margin-left: 70px;
+    margin-right: 70px; */
+    width: 50vw;
+}
+.banner1 {
+    /* position: relative;
+    z-index: 0; */
+    background-color: antiquewhite;
+    padding: 10px 10px 30px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-left: 20px;
+}
+
+.florsinfondo {
+  max-width: 20%;
+  min-width: 20%;
+  padding: 0%;
+  margin: 0%;
+  width: 40%;
+}
+
+.florsinfondo img {
+  width:100%;
+}
+
+
+.peli_libro {
+    display: flex;
+}
+.banner1 img {
+    width: 100%;
+}
+.descripcion {
+     padding-top: 5%;
+    background-color: antiquewhite;
+    line-height: 30px;
+}
+.titulo_obra {
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+
+
+.footer {
+  background-color: #2d2d2d;
+  color: #f1f1f1;
+  padding: 40px 80px 0;
+  font-size: 16px;
+}
+
+.footercontenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #888;
+  padding-bottom: 30px;
+}
+
+.footerlogo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+  min-width: 220px;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.nosotros {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 15px;
+}
+
+.footerseccion {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footerseccion h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footerseccion p {
+  color: #d1d1d1;
+  line-height: 1.5;
+}
+
+.footerseccion a {
+  color: #d1d1d1;
+  text-decoration: none;
+}
+
+.footerseccion a:hover {
+  text-decoration: underline;
+}
+
+.footerbottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social p {
+  margin: 0;
+  color: #f1f1f1;
+  font-size: 18px;
+}
+
+.iconos a img {
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+  transition: opacity 0.3s;
+}
+
