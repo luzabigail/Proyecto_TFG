@@ -7,6 +7,7 @@ class Material {
     public $tipo;
     public $anio;
     public $autor;
+    public $sinopsis;
 
 }
 
