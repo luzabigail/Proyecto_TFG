@@ -40,7 +40,7 @@ $materiales = $db->getMaterialesRand();
 
     <div class="relative z-[1] flex h-full w-full items-center justify-center bg-black/45">
       <div class="text-center text-white">
-        <h1 class="text-[7.7rem] font-['Updock'] max-md:text-[4.5rem]">Film to Read</h1>
+        <h1 class="text-[7.7rem] font-['Updock'] max-md:text-[4.5rem]">Film to Read - test</h1>
         <p class="font-goudy text-2xl max-md:text-lg">By Luz Bietti & Diego Ciro</p>
       </div>
     </div>
