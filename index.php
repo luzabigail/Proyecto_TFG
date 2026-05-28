@@ -35,7 +35,7 @@ $materiales = $db->getMaterialesRand();
   <header class="hero-video-header sticky top-0 z-0 flex h-[105svh] items-center justify-center overflow-hidden">
     <video class="absolute inset-0 h-full w-full object-cover scale-125 max-md:scale-125 max-lg:scale-125" autoplay
       muted loop playsinline preload="auto" poster="imagenes/header.png">
-      <source src="imagenes/Header_video_Recortado.mp4" type="video/mp4">
+      <source src="imagenes/header_video_recortado.mp4" type="video/mp4">
     </video>
 
     <div class="relative z-[1] flex h-full w-full items-center justify-center bg-black/45">
@@ -141,8 +141,8 @@ $materiales = $db->getMaterialesRand();
                 alt="<?= $mat->titulo; ?>">
             </a>
             <div class="pt-[5%] felx justify-center items-center text-center text-base">
-              <p class="bg-[#e3ceaf] ml-20 mr-20 rounded-2xl text-[#7a1b1b]"><?= $mat->tipo . " - " . $mat->anio; ?></p>
-              <p class="text-[#7a1b1b]"><strong><?= $mat->titulo; ?></strong></p>
+              <p class="bg-[#e3ceaf] ml-20 mr-20 rounded-2xl text-brown"><?= $mat->tipo . " - " . $mat->anio; ?></p>
+              <p class="text-brown"><strong><?= $mat->titulo; ?></strong></p>
               <p><?= $mat->autor; ?></p>
             </div>
           </div>
