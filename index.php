@@ -140,9 +140,11 @@ $materiales = $db->getMaterialesRand();
               <img class="block h-auto w-full rounded-t-[20px] object-cover" src="<?= $mat->imagen; ?>"
                 alt="<?= $mat->titulo; ?>">
             </a>
-            <div class="pt-[5%] felx justify-center items-center text-center text-base">
-              <p class="bg-[#e3ceaf] ml-20 mr-20 rounded-2xl text-brown"><?= $mat->tipo . " - " . $mat->anio; ?></p>
-              <p class="text-brown"><strong><?= $mat->titulo; ?></strong></p>
+            <div class="pt-[5%] text-center text-base">
+              <p class="bg-[#e3ceaf] p-1 mx-10 lg:mx-20 rounded-2xl text-brown text-center">
+                <?= $mat->tipo . " - " . $mat->anio; ?>
+              </p>
+              <p class="text-brown px-10"><strong><?= $mat->titulo; ?></strong></p>
               <p><?= $mat->autor; ?></p>
             </div>
           </div>

@@ -146,18 +146,18 @@ CREATE TABLE `portadas` (
 INSERT INTO `portadas` (`id`, `tipoBase`, `tipo`, `imagen`) VALUES
 (1, 'Principal', 'PrincipalN', 'imagenes/portada/0PPN.jpg'),
 (2, 'Principal', 'PrincipalP', 'imagenes/portada/0PPP.jpg'),
-(3, 'Libro', 'Romance', 'imagenes/portada/1PRN.jpg'),
-(4, 'Libro', 'Fantasia', 'imagenes/portada/1PFN.jpg'),
-(5, 'Libro', 'Ciencia Ficcion', 'imagenes/portada/1PCN.jpg'),
-(6, 'Libro', 'Terror', 'imagenes/portada/1PTN.jpg'),
-(7, 'Libro', 'Drama', 'imagenes/portada/1PDN.jpg'),
-(8, 'Libro', 'Belica', 'imagenes/portada/1PBN.jpg'),
-(9, 'Peli', 'Romance', 'imagenes/portada/2PRP.jpg'),
-(10, 'Peli', 'Fantasia', 'imagenes/portada/2PFP.jpg'),
-(11, 'Peli', 'Ciencia Ficcion', 'imagenes/portada/2PCP.jpg'),
-(12, 'Peli', 'Terror', 'imagenes/portada/2PTP.jpg'),
-(13, 'Peli', 'Drama', 'imagenes/portada/2PDP.jpg'),
-(14, 'Peli', 'Belica', 'imagenes/portada/2PBP.jpg');
+(3, 'Libro', 'romance', 'imagenes/portada/1PRN.jpg'),
+(4, 'Libro', 'fantasia', 'imagenes/portada/1PFN.jpg'),
+(5, 'Libro', 'ciencia Ficcion', 'imagenes/portada/1PCN.jpg'),
+(6, 'Libro', 'terror', 'imagenes/portada/1PTN.jpg'),
+(7, 'Libro', 'drama', 'imagenes/portada/1PDN.jpg'),
+(8, 'Libro', 'belica', 'imagenes/portada/1PBN.jpg'),
+(9, 'Peli', 'romance', 'imagenes/portada/2PRP.jpg'),
+(10, 'Peli', 'fantasia', 'imagenes/portada/2PFP.jpg'),
+(11, 'Peli', 'ciencia Ficcion', 'imagenes/portada/2PCP.jpg'),
+(12, 'Peli', 'terror', 'imagenes/portada/2PTP.jpg'),
+(13, 'Peli', 'drama', 'imagenes/portada/2PDP.jpg'),
+(14, 'Peli', 'belica', 'imagenes/portada/2PBP.jpg');
 
 -- --------------------------------------------------------
 

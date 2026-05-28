@@ -182,7 +182,7 @@ button:hover {
 .descvalorados {
   text-align: center;
   padding: 10px;
-  height: 90px;
+ min-height: 120px;
   font-size: 15px;
   min-width: 10px;
 }
@@ -195,9 +195,13 @@ button:hover {
 
 #tituloyanio {
   background-color: #e3ceaf;
-  color: #a43e3e;
+  color: rgb(58, 32, 32);
   border-radius: 10px;
   margin: 0px 10px 5px 10px;
+}
+
+.nombreBusqueda {
+  margin: 10px;
 }
 
 .noEncontrado {

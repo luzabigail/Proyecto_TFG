@@ -69,12 +69,7 @@ if (isset($_GET['buscar']) && !empty(trim($_GET['buscar']))) {
       <?php endif; ?>
       <a href="index.php">Menú principal</a>
       <a href="index.php#recomendaciones">Recomendaciones</a>
-      <!-- </nav>
-        <a href="iniciar.html">Iniciar Sesión</a>
-        <a href="guardados.php">Mis favoritos</a>
-        <a href="index.php">Menú principal</a>
-        <a href="index.php#recomendaciones">Recomendaciones</a>
-        </nav> -->
+
   </header>
 
   <div>
@@ -96,7 +91,7 @@ if (isset($_GET['buscar']) && !empty(trim($_GET['buscar']))) {
               </a>
               <div class="descvalorados">
                 <p id="tituloyanio"><?php echo $obraresu->tipo . " - " . $obraresu->anio; ?></p>
-                <p><strong><?php echo $obraresu->titulo; ?></strong></p>
+                <p><strong class="nombreBusqueda"><?php echo $obraresu->titulo; ?></strong></p>
                 <p><?php echo $obraresu->autor; ?></p>
               </div>
             </div>

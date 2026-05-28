@@ -177,7 +177,6 @@ body.pagina-principal header::after {
   }
 }
 
-/* Corazón con el estilo circular de las referencias */
 .favorito {
   position: relative !important;
   width: 74px !important;
@@ -220,7 +219,7 @@ body.pagina-principal header::after {
   100% { transform: scale(1); }
 }
 
-/* Pop up de eliminación de comentario */
+
 .confirm-modal {
   position: fixed;
   inset: 0;
